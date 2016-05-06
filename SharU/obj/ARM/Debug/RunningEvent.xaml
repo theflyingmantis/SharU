@@ -1,0 +1,55 @@
+﻿<Page
+    x:Class="SharU.RunningEvent"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SharU"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBlock x:ConnectionId='1' x:Name="handleName" HorizontalAlignment="Left" Height="33" Margin="34,42,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="236">
+        	<Run FontWeight="Bold" FontSize="21.75" Text="Event Name"/>
+        </TextBlock>
+
+        <TextBlock x:ConnectionId='2' x:Name="startTextBlock" HorizontalAlignment="Left" Height="27" Margin="58,93,0,0" TextWrapping="Wrap" Text="Start Date &amp; Time" VerticalAlignment="Top" Width="183"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" Margin="38,120,0,0" VerticalAlignment="Top" Width="74"/>
+        <TextBlock x:ConnectionId='3' x:Name="startDay" HorizontalAlignment="Left" Height="30" Margin="34,125,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Day" VerticalAlignment="Top" Width="79" SelectionHighlightColor="#FF8ECC29"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" Margin="112,120,0,0" VerticalAlignment="Top" Width="138"/>
+        <TextBlock x:ConnectionId='4' x:Name="startMonth" HorizontalAlignment="Left" Height="30" Margin="117,125,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Month" VerticalAlignment="Top" Width="133"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" Margin="250,120,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBlock x:ConnectionId='5' x:Name="startYear" HorizontalAlignment="Left" Height="30" Margin="250,125,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Year" VerticalAlignment="Top" Width="80"/>
+
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" Margin="38,171,0,0" VerticalAlignment="Top" Width="141"/>
+        <TextBlock x:ConnectionId='6' x:Name="startHour" HorizontalAlignment="Left" Height="30" Margin="38,176,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Hour" VerticalAlignment="Top" Width="146"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" Margin="177,171,0,0" VerticalAlignment="Top" Width="149"/>
+        <TextBlock x:ConnectionId='7' x:Name="startMinute" HorizontalAlignment="Left" Height="30" Margin="184,176,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Minute" VerticalAlignment="Top" Width="146"/>
+
+
+        <TextBlock x:ConnectionId='8' x:Name="endTextBlock" HorizontalAlignment="Left" Height="27" Margin="58,257,0,0" TextWrapping="Wrap" Text="End Date &amp; Time" VerticalAlignment="Top" Width="183"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" Margin="38,291,0,0" VerticalAlignment="Top" Width="74"/>
+        <TextBlock x:ConnectionId='9' x:Name="endDay" HorizontalAlignment="Left" Height="30" Margin="35,296,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Day" VerticalAlignment="Top" Width="79" SelectionHighlightColor="#FF8ECC29"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" Margin="112,291,0,0" VerticalAlignment="Top" Width="138"/>
+        <TextBlock x:ConnectionId='10' x:Name="endMonth" HorizontalAlignment="Left" Height="30" Margin="118,296,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Month" VerticalAlignment="Top" Width="133"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" Margin="250,291,0,0" VerticalAlignment="Top" Width="76"/>
+        <TextBlock x:ConnectionId='11' x:Name="endYear" HorizontalAlignment="Left" Height="30" Margin="251,296,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Year" VerticalAlignment="Top" Width="80"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" Margin="38,342,0,0" VerticalAlignment="Top" Width="141"/>
+        <TextBlock x:ConnectionId='12' x:Name="endHour" HorizontalAlignment="Left" Height="30" Margin="39,347,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Hour" VerticalAlignment="Top" Width="146"/>
+
+        <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="35" Margin="177,342,0,0" VerticalAlignment="Top" Width="149"/>
+        <TextBlock x:ConnectionId='13' x:Name="endMinute" HorizontalAlignment="Left" Height="30" Margin="185,347,0,0" TextAlignment="Center" TextWrapping="Wrap" Text="Minute" VerticalAlignment="Top" Width="146"/>
+        <Button x:ConnectionId='14' x:Name="terminateBtn" Content="Terminate" HorizontalAlignment="Left" Height="45" Margin="39,420,0,0" VerticalAlignment="Top" Width="287"                           />
+        <Button x:ConnectionId='15' x:Name="backBtn" Content="Back" HorizontalAlignment="Left" Height="45" Margin="39,484,0,0" VerticalAlignment="Top" Width="287"                      />
+
+    </Grid>
+</Page>
+
